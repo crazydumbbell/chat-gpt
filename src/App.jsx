@@ -10,8 +10,8 @@ const App = () => {
   return (
     <div className="min-h-screen max-w-screen-md mx-auto flex">
       <div className="bg-blue-100 w-52">Side</div>
-      <div className="grow flex flex-col">
-        <div className="bg-yellow-100 grow">Main</div>
+      <div className="grow flex flex-col relative">
+        {/* 여기에 relative를 넣어줘야  chatbar의 return의 길이가 요녀석 기준으로 w-full이 됨 */}
         <ChatView chatList={chatList}/>
         <ChatBar chatList={chatList} setChatList={setChatList}/>
         {/* 기존<ChatBar에 프롭스 옆에 추가> */}

@@ -54,9 +54,9 @@ const ChatBar = ({ chatList, setChatList }) => {
   };
 
   return (
-    <div className="bg-purple-100 h-24">
+    <div className="h-24 absolute bottom-0 w-full">
       <form
-        className="bg-red-100 h-full flex items-center px-4"
+        className="h-full flex items-center px-4"
         onSubmit={onSubmitChat}
       >
         <input
