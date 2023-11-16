@@ -70,7 +70,7 @@ const ChatBar = ({ chatList, setChatList }) => {
           disabled={isLoading}
           //   isLoading중에 는 사용중지!
           //   위에 setIsLoading으로 true인 구간을 설정해 놨다. 저때아니면 항상 막혀있어서 남용안하게됨
-          placeholder="무엇이든 물어보세요. 1번노예 김종혁 입니다."
+          placeholder="Question everything"
         />
         <button
           className="w-28 py-[6px] text-sm bg-pink-400 hover:bg-pink-600 active:bg-pink-400 rounded-lg text-white font-semibold flex justify-center"
